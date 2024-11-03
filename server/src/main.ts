@@ -5,7 +5,6 @@ import * as dotenv from 'dotenv';
 
 async function bootstrap() {
   dotenv.config();
-  console.log(process.env.MONGO_URI);
   const app = await NestFactory.create(AppModule);
   app.enableCors({
     origin: process.env.CLIENT_URL,

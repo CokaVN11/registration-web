@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:server": "cd server && pnpm run build",
     "start:server": "cd server && pnpm run start:prod",
-    "build:client": "cd clientapps && pnpm run build"
+    "build:client": "cd clientapps && pnpm run build",
+    "dev:client": "cd clientapps && pnpm run dev"
   },
   "keywords": [],
   "author": "",
